@@ -1,0 +1,264 @@
+/* Reset default margin and padding */
+* {
+  margin: 5;
+  padding: 1;
+  box-sizing: border-box;
+  background-color: #001660;
+  font-family: Arial, sans-serif;
+
+
+ /*3d format appearance text CAN BE REMOVED IF PLAIN TEXT IS REQUIRED*/
+  text-shadow: 2px 2px #0000FF, -2px -2px #0000FF, 2px -2px #0000FF, -2px 2px #0000FF;
+
+
+
+}
+
+/* style header and navigation */
+header {
+
+  /*background-color: #333;
+
+  background-image: url('background-image2.jpg');
+  background-size: cover;
+  background-position: center;
+ */
+
+  color: #fff;
+ 
+
+			/*code for displaying  continous gif files in frames*/
+	
+			background-image: url('animatedimage1.gif');
+			background-size: cover;
+			background-position: center;
+			animation: slide 3s ease-in-out infinite alternate;
+		
+		@keyframes slide {
+			from {
+				background-position-x: -100%;
+			}
+			to {
+				background-position-x: 100%;
+			}
+		}
+	
+
+
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: Left;
+
+ /*position: absolute;
+   top: 0;
+   width: 100%;*/
+
+  flex-direction: column;
+  
+}
+
+/*Logo*/
+
+nav img
+{
+	/*height:100px;*/
+
+}
+
+/*home service contact menu*/
+
+nav ul {
+  display: flex;
+  list-style: none;
+  height: 40px;
+
+
+}
+
+ul {
+  list-style: disc;
+  margin-left: 10rem;
+  
+
+}
+
+
+nav li {
+  margin:2rem;
+ 
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.25rem ;
+  background-color: transparent;
+
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* style main content sections */
+ 
+ main {
+  max-width: 800px;
+  margin: 1rem auto;
+  padding: 1 ;1rem;
+
+  }
+
+section {
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+
+h2 {
+max-width: 800px;
+background-color: #333;
+color: #fff;
+padding: 1rem;
+display:flex;
+font-size: 2rem;
+margin-bottom: 2rem;
+text-align: center;
+
+}
+
+
+
+/* style contact form */
+label {
+  color: #fff;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  color: #fff;
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  /*removing shadows for input*/
+   text-shadow:none;
+
+
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* style footer */
+
+footer {
+ 
+/*background-color: #333;*/
+
+  background-color: transparent;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+header img {
+  height: 80px;
+  margin-bottom: 1rem;
+  margin-left: 8rem;
+
+}
+
+
+/*krish telecommerce inc Header*/
+
+header h1 {
+  height: 340px;
+  margin-top: 2.5rem;
+  font-size: 3.5rem;
+  background-color: transparent;
+
+}
+
+
+
+
+/* Style the call-to-action section */
+.cta {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: 50px 0;
+}
+
+.cta h2 {
+	font-size: 40px;
+	margin-bottom: 0;
+	color: #fff;
+
+}
+
+
+
+.cta p {
+	font-size: 40px;
+	margin-top: 0;
+	color: #fff;
+
+}
+
+.cta button {
+	font-size: 24px;
+	padding: 10px 30px;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: none;
+	background-color: #007bff;
+	color: #fff;
+	cursor: pointer;
+}
+
+.cta button:hover {
+	background-color: #0069d9;
+}
+
+h3 {
+ background-image: url('background-image3.jpg');
+ background-size: cover;
+ background-position: center;
+ color: #fff;
+ background-color: transparent;
+ height: 500px;
+ width:1000px
+ 
+ 
+/*display: flex;*/
+justify-content: space-between;
+align-items: Left;
+
+}
+
+
+p{
+
+ background-color: transparent;
+
+}
